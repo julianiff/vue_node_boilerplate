@@ -1,0 +1,27 @@
+h1, h2 {
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.hello {
+  &__world {
+    color: green;
+    font-size: 15px;
+
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+li {
+  display: inline-block;
+  margin: 15px 15px;
+  padding: 15px;
+}
+
+a {
+  color: #42b983;
+}
